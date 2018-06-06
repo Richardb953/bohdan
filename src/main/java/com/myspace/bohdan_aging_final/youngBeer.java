@@ -7,29 +7,76 @@ package com.myspace.bohdan_aging_final;
 @javax.persistence.Entity
 public class youngBeer implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "YOUNGBEER_ID_GENERATOR")
-    @javax.persistence.Id
-    @javax.persistence.SequenceGenerator(name = "YOUNGBEER_ID_GENERATOR", sequenceName = "YOUNGBEER_ID_SEQ")
-    private java.lang.Long id;
+	@javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "YOUNGBEER_ID_GENERATOR")
+	@javax.persistence.Id
+	@javax.persistence.SequenceGenerator(name = "YOUNGBEER_ID_GENERATOR", sequenceName = "YOUNGBEER_ID_SEQ")
+	private java.lang.Long id;
 
-    public youngBeer() {
-    }
-    
-    public youngBeer(java.lang.Long id) {
-        this.id = id;
-    }
+	@org.kie.api.definition.type.Label(value = "TypeOfBeer")
+	private java.lang.String typeOfBeer;
 
-    public java.lang.Long getId() {
-        return this.id;
-    }
-    
-    public void setId(java.lang.Long id) {
-        this.id = id;
-    }
+	@org.kie.api.definition.type.Label(value = "DaysOfAging")
+	private java.lang.Integer daysOfAging;
 
+	@org.kie.api.definition.type.Label(value = "Temperature")
+	private java.lang.Integer temperature;
 
+	@org.kie.api.definition.type.Label(value = "Presure")
+	private java.lang.Integer presure;
 
+	public youngBeer() {
+	}
+
+	public java.lang.Long getId() {
+		return this.id;
+	}
+
+	public void setId(java.lang.Long id) {
+		this.id = id;
+	}
+
+	public java.lang.String getTypeOfBeer() {
+		return this.typeOfBeer;
+	}
+
+	public void setTypeOfBeer(java.lang.String typeOfBeer) {
+		this.typeOfBeer = typeOfBeer;
+	}
+
+	public java.lang.Integer getDaysOfAging() {
+		return this.daysOfAging;
+	}
+
+	public void setDaysOfAging(java.lang.Integer daysOfAging) {
+		this.daysOfAging = daysOfAging;
+	}
+
+	public java.lang.Integer getTemperature() {
+		return this.temperature;
+	}
+
+	public void setTemperature(java.lang.Integer temperature) {
+		this.temperature = temperature;
+	}
+
+	public java.lang.Integer getPresure() {
+		return this.presure;
+	}
+
+	public void setPresure(java.lang.Integer presure) {
+		this.presure = presure;
+	}
+
+	public youngBeer(java.lang.Long id, java.lang.String typeOfBeer,
+			java.lang.Integer daysOfAging, java.lang.Integer temperature,
+			java.lang.Integer presure) {
+		this.id = id;
+		this.typeOfBeer = typeOfBeer;
+		this.daysOfAging = daysOfAging;
+		this.temperature = temperature;
+		this.presure = presure;
+	}
 
 }
