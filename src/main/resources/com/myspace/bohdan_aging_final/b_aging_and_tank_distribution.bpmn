@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_hn8h4Gl8Eei3L4V23ed5gQ" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd" exporter="jBPM Process Modeler" exporterVersion="1.0" targetNamespace="http://www.omg.org/bpmn20">
+<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_k-BF0Gl8Eei3L4V23ed5gQ" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd" exporter="jBPM Process Modeler" exporterVersion="1.0" targetNamespace="http://www.omg.org/bpmn20">
   <bpmn2:itemDefinition id="_youngBeerItem" structureRef="com.myspace.bohdan_aging_final.youngBeer"/>
   <bpmn2:itemDefinition id="__6FAF3A63-30C1-4FA4-A481-97FF0223CA68_TaskNameInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__6FAF3A63-30C1-4FA4-A481-97FF0223CA68_youngBeerInputXItem" structureRef="com.myspace.bohdan_aging_final.youngBeer"/>
@@ -55,48 +55,48 @@ System.out.println("Cooling is done"); ]]></bpmn2:script>
       </bpmn2:extensionElements>
       <bpmn2:incoming>_0943D27F-1CFF-40F8-A12C-3E133CB13DB1</bpmn2:incoming>
       <bpmn2:outgoing>_D13B9327-1D8E-4759-AC6D-CB750D2719D4</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_hn8h4Wl8Eei3L4V23ed5gQ">
+      <bpmn2:ioSpecification id="_k-BF0Wl8Eei3L4V23ed5gQ">
         <bpmn2:dataInput id="_6FAF3A63-30C1-4FA4-A481-97FF0223CA68_TaskNameInputX" drools:dtype="String" itemSubjectRef="__6FAF3A63-30C1-4FA4-A481-97FF0223CA68_TaskNameInputXItem" name="TaskName"/>
         <bpmn2:dataInput id="_6FAF3A63-30C1-4FA4-A481-97FF0223CA68_youngBeerInputX" drools:dtype="com.myspace.bohdan_aging_final.youngBeer" itemSubjectRef="__6FAF3A63-30C1-4FA4-A481-97FF0223CA68_youngBeerInputXItem" name="youngBeer"/>
         <bpmn2:dataInput id="_6FAF3A63-30C1-4FA4-A481-97FF0223CA68_SkippableInputX" drools:dtype="Object" itemSubjectRef="__6FAF3A63-30C1-4FA4-A481-97FF0223CA68_SkippableInputXItem" name="Skippable"/>
         <bpmn2:dataInput id="_6FAF3A63-30C1-4FA4-A481-97FF0223CA68_GroupIdInputX" name="GroupId"/>
         <bpmn2:dataOutput id="_6FAF3A63-30C1-4FA4-A481-97FF0223CA68_youngBeerOutputX" drools:dtype="com.myspace.bohdan_aging_final.youngBeer" itemSubjectRef="__6FAF3A63-30C1-4FA4-A481-97FF0223CA68_youngBeerOutputXItem" name="youngBeer"/>
-        <bpmn2:inputSet id="_hn8h4ml8Eei3L4V23ed5gQ">
+        <bpmn2:inputSet id="_k-BF0ml8Eei3L4V23ed5gQ">
           <bpmn2:dataInputRefs>_6FAF3A63-30C1-4FA4-A481-97FF0223CA68_youngBeerInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_6FAF3A63-30C1-4FA4-A481-97FF0223CA68_SkippableInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_6FAF3A63-30C1-4FA4-A481-97FF0223CA68_TaskNameInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_6FAF3A63-30C1-4FA4-A481-97FF0223CA68_GroupIdInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_hn8h42l8Eei3L4V23ed5gQ">
+        <bpmn2:outputSet id="_k-BF02l8Eei3L4V23ed5gQ">
           <bpmn2:dataOutputRefs>_6FAF3A63-30C1-4FA4-A481-97FF0223CA68_youngBeerOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_hn8h5Gl8Eei3L4V23ed5gQ">
+      <bpmn2:dataInputAssociation id="_k-BF1Gl8Eei3L4V23ed5gQ">
         <bpmn2:targetRef>_6FAF3A63-30C1-4FA4-A481-97FF0223CA68_TaskNameInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_hn8h5Wl8Eei3L4V23ed5gQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_hn8h5ml8Eei3L4V23ed5gQ">SetValuesForBeerAging</bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_hn8h52l8Eei3L4V23ed5gQ">_6FAF3A63-30C1-4FA4-A481-97FF0223CA68_TaskNameInputX</bpmn2:to>
+        <bpmn2:assignment id="_k-BF1Wl8Eei3L4V23ed5gQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_k-BF1ml8Eei3L4V23ed5gQ">SetValuesForBeerAging</bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_k-BF12l8Eei3L4V23ed5gQ">_6FAF3A63-30C1-4FA4-A481-97FF0223CA68_TaskNameInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_hn8h6Gl8Eei3L4V23ed5gQ">
+      <bpmn2:dataInputAssociation id="_k-BF2Gl8Eei3L4V23ed5gQ">
         <bpmn2:sourceRef>youngBeer</bpmn2:sourceRef>
         <bpmn2:targetRef>_6FAF3A63-30C1-4FA4-A481-97FF0223CA68_youngBeerInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_hn8h6Wl8Eei3L4V23ed5gQ">
+      <bpmn2:dataInputAssociation id="_k-BF2Wl8Eei3L4V23ed5gQ">
         <bpmn2:targetRef>_6FAF3A63-30C1-4FA4-A481-97FF0223CA68_GroupIdInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_hn8h6ml8Eei3L4V23ed5gQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_hn8h62l8Eei3L4V23ed5gQ"><![CDATA[users]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_hn8h7Gl8Eei3L4V23ed5gQ">_6FAF3A63-30C1-4FA4-A481-97FF0223CA68_GroupIdInputX</bpmn2:to>
+        <bpmn2:assignment id="_k-BF2ml8Eei3L4V23ed5gQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_k-BF22l8Eei3L4V23ed5gQ"><![CDATA[users]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_k-BF3Gl8Eei3L4V23ed5gQ">_6FAF3A63-30C1-4FA4-A481-97FF0223CA68_GroupIdInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_hn8h7Wl8Eei3L4V23ed5gQ">
+      <bpmn2:dataInputAssociation id="_k-BF3Wl8Eei3L4V23ed5gQ">
         <bpmn2:targetRef>_6FAF3A63-30C1-4FA4-A481-97FF0223CA68_SkippableInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_hn8h7ml8Eei3L4V23ed5gQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_hn8h72l8Eei3L4V23ed5gQ">false</bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_hn8h8Gl8Eei3L4V23ed5gQ">_6FAF3A63-30C1-4FA4-A481-97FF0223CA68_SkippableInputX</bpmn2:to>
+        <bpmn2:assignment id="_k-BF3ml8Eei3L4V23ed5gQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_k-BF32l8Eei3L4V23ed5gQ">false</bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_k-BF4Gl8Eei3L4V23ed5gQ">_6FAF3A63-30C1-4FA4-A481-97FF0223CA68_SkippableInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_hn8h8Wl8Eei3L4V23ed5gQ">
+      <bpmn2:dataOutputAssociation id="_k-BF4Wl8Eei3L4V23ed5gQ">
         <bpmn2:sourceRef>_6FAF3A63-30C1-4FA4-A481-97FF0223CA68_youngBeerOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>youngBeer</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
@@ -113,39 +113,39 @@ youngBeer.setDaysOfAging(youngBeer.getDaysOfAging-7);]]></drools:script>
       </bpmn2:extensionElements>
       <bpmn2:incoming>_D5A6DCB3-8F9B-494A-B3DD-CFAF88FDD9A9</bpmn2:incoming>
       <bpmn2:outgoing>_26DAF3FB-7AE8-4196-B01B-1D4240AA366A</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_hn8h8ml8Eei3L4V23ed5gQ">
+      <bpmn2:ioSpecification id="_k-BF4ml8Eei3L4V23ed5gQ">
         <bpmn2:dataInput id="_0A6E1BC8-075A-4419-82FA-E3A7244230E0_TaskNameInputX" drools:dtype="String" itemSubjectRef="__0A6E1BC8-075A-4419-82FA-E3A7244230E0_TaskNameInputXItem" name="TaskName"/>
         <bpmn2:dataInput id="_0A6E1BC8-075A-4419-82FA-E3A7244230E0_youngBeerInputX" drools:dtype="com.myspace.bohdan_aging_final.youngBeer" itemSubjectRef="__0A6E1BC8-075A-4419-82FA-E3A7244230E0_youngBeerInputXItem" name="youngBeer"/>
         <bpmn2:dataInput id="_0A6E1BC8-075A-4419-82FA-E3A7244230E0_SkippableInputX" drools:dtype="Object" itemSubjectRef="__0A6E1BC8-075A-4419-82FA-E3A7244230E0_SkippableInputXItem" name="Skippable"/>
         <bpmn2:dataOutput id="_0A6E1BC8-075A-4419-82FA-E3A7244230E0_youngBeerOutputX" drools:dtype="com.myspace.bohdan_aging_final.youngBeer" itemSubjectRef="__0A6E1BC8-075A-4419-82FA-E3A7244230E0_youngBeerOutputXItem" name="youngBeer"/>
-        <bpmn2:inputSet id="_hn8h82l8Eei3L4V23ed5gQ">
+        <bpmn2:inputSet id="_k-BF42l8Eei3L4V23ed5gQ">
           <bpmn2:dataInputRefs>_0A6E1BC8-075A-4419-82FA-E3A7244230E0_youngBeerInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_0A6E1BC8-075A-4419-82FA-E3A7244230E0_SkippableInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_0A6E1BC8-075A-4419-82FA-E3A7244230E0_TaskNameInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_hn8h9Gl8Eei3L4V23ed5gQ">
+        <bpmn2:outputSet id="_k-BF5Gl8Eei3L4V23ed5gQ">
           <bpmn2:dataOutputRefs>_0A6E1BC8-075A-4419-82FA-E3A7244230E0_youngBeerOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_hn8h9Wl8Eei3L4V23ed5gQ">
+      <bpmn2:dataInputAssociation id="_k-BF5Wl8Eei3L4V23ed5gQ">
         <bpmn2:targetRef>_0A6E1BC8-075A-4419-82FA-E3A7244230E0_TaskNameInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_hn8h9ml8Eei3L4V23ed5gQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_hn8h92l8Eei3L4V23ed5gQ">checkQuality</bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_hn8h-Gl8Eei3L4V23ed5gQ">_0A6E1BC8-075A-4419-82FA-E3A7244230E0_TaskNameInputX</bpmn2:to>
+        <bpmn2:assignment id="_k-BF5ml8Eei3L4V23ed5gQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_k-BF52l8Eei3L4V23ed5gQ">checkQuality</bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_k-BF6Gl8Eei3L4V23ed5gQ">_0A6E1BC8-075A-4419-82FA-E3A7244230E0_TaskNameInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_hn8h-Wl8Eei3L4V23ed5gQ">
+      <bpmn2:dataInputAssociation id="_k-BF6Wl8Eei3L4V23ed5gQ">
         <bpmn2:sourceRef>youngBeer</bpmn2:sourceRef>
         <bpmn2:targetRef>_0A6E1BC8-075A-4419-82FA-E3A7244230E0_youngBeerInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_hn8h-ml8Eei3L4V23ed5gQ">
+      <bpmn2:dataInputAssociation id="_k-BF6ml8Eei3L4V23ed5gQ">
         <bpmn2:targetRef>_0A6E1BC8-075A-4419-82FA-E3A7244230E0_SkippableInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_hn8h-2l8Eei3L4V23ed5gQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_hn8h_Gl8Eei3L4V23ed5gQ">false</bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_hn8h_Wl8Eei3L4V23ed5gQ">_0A6E1BC8-075A-4419-82FA-E3A7244230E0_SkippableInputX</bpmn2:to>
+        <bpmn2:assignment id="_k-BF62l8Eei3L4V23ed5gQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_k-BF7Gl8Eei3L4V23ed5gQ">false</bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_k-BF7Wl8Eei3L4V23ed5gQ">_0A6E1BC8-075A-4419-82FA-E3A7244230E0_SkippableInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_hn8h_ml8Eei3L4V23ed5gQ">
+      <bpmn2:dataOutputAssociation id="_k-BF7ml8Eei3L4V23ed5gQ">
         <bpmn2:sourceRef>_0A6E1BC8-075A-4419-82FA-E3A7244230E0_youngBeerOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>youngBeer</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
@@ -176,8 +176,8 @@ youngBeer.setDaysOfAging(youngBeer.getDaysOfAging-7);]]></drools:script>
       </bpmn2:extensionElements>
       <bpmn2:incoming>_973DEFB1-2079-4DA3-B897-E59D074ECCB3</bpmn2:incoming>
       <bpmn2:outgoing>_D5A6DCB3-8F9B-494A-B3DD-CFAF88FDD9A9</bpmn2:outgoing>
-      <bpmn2:timerEventDefinition id="_hn8h_2l8Eei3L4V23ed5gQ">
-        <bpmn2:timeDuration xsi:type="bpmn2:tFormalExpression" id="_hn8iAGl8Eei3L4V23ed5gQ">PT1S</bpmn2:timeDuration>
+      <bpmn2:timerEventDefinition id="_k-BF72l8Eei3L4V23ed5gQ">
+        <bpmn2:timeDuration xsi:type="bpmn2:tFormalExpression" id="_k-BF8Gl8Eei3L4V23ed5gQ">PT1S</bpmn2:timeDuration>
       </bpmn2:timerEventDefinition>
     </bpmn2:intermediateCatchEvent>
     <bpmn2:exclusiveGateway id="_51EF4BEB-AA9D-4C3F-8035-D1B5583E0111" drools:dg="_A33C19CD-EE82-47C3-B720-11DBB68D9463" name="" gatewayDirection="Diverging">
@@ -185,18 +185,20 @@ youngBeer.setDaysOfAging(youngBeer.getDaysOfAging-7);]]></drools:script>
       <bpmn2:outgoing>_1F7B4393-FD03-40EE-B630-F0AD537B4BB8</bpmn2:outgoing>
       <bpmn2:outgoing>_709D95D6-4BBE-4E35-9FA2-DA90D7316DD0</bpmn2:outgoing>
     </bpmn2:exclusiveGateway>
-    <bpmn2:exclusiveGateway id="_716BF79F-F6E5-46AC-9B1B-28CCE48E4C0F" drools:dg="" name="" gatewayDirection="Converging">
-      <bpmn2:incoming>_709D95D6-4BBE-4E35-9FA2-DA90D7316DD0</bpmn2:incoming>
+    <bpmn2:exclusiveGateway id="_716BF79F-F6E5-46AC-9B1B-28CCE48E4C0F" drools:dg="_973DEFB1-2079-4DA3-B897-E59D074ECCB3" name="" gatewayDirection="Converging" default="_973DEFB1-2079-4DA3-B897-E59D074ECCB3">
       <bpmn2:incoming>_D13B9327-1D8E-4759-AC6D-CB750D2719D4</bpmn2:incoming>
+      <bpmn2:incoming>_709D95D6-4BBE-4E35-9FA2-DA90D7316DD0</bpmn2:incoming>
       <bpmn2:outgoing>_973DEFB1-2079-4DA3-B897-E59D074ECCB3</bpmn2:outgoing>
     </bpmn2:exclusiveGateway>
     <bpmn2:sequenceFlow id="_1F7B4393-FD03-40EE-B630-F0AD537B4BB8" sourceRef="_51EF4BEB-AA9D-4C3F-8035-D1B5583E0111" targetRef="_BDCD6979-46F9-44D9-99F0-F47703708491">
-      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_hn8iAWl8Eei3L4V23ed5gQ" language="http://www.java.com/java"><![CDATA[return youngBeer.getDaysOfAging() < 7 ? true : false;]]></bpmn2:conditionExpression>
+      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_k-BF8Wl8Eei3L4V23ed5gQ" language="http://www.java.com/java"><![CDATA[return youngBeer.getDaysOfAging() < 7 ? true : false;]]></bpmn2:conditionExpression>
     </bpmn2:sequenceFlow>
     <bpmn2:sequenceFlow id="_2E88C0E4-A619-4E22-B9E9-91B51C776FC9" sourceRef="_5714AA85-282C-4166-A850-6E62D6100185" targetRef="_08F5B565-035B-4705-B1BC-725A0B48C826"/>
     <bpmn2:sequenceFlow id="_7388DA17-A3CE-40B3-8878-BB65A542C2B6" sourceRef="_D3BDC597-399B-41BE-81AA-9B63DA60577B" targetRef="_5714AA85-282C-4166-A850-6E62D6100185"/>
     <bpmn2:sequenceFlow id="_748D70BB-BB0C-43C1-87EE-F87FF874AD9D" sourceRef="_BDCD6979-46F9-44D9-99F0-F47703708491" targetRef="_E1D9F606-1523-409C-A768-34BCBFBB8355"/>
-    <bpmn2:sequenceFlow id="_973DEFB1-2079-4DA3-B897-E59D074ECCB3" sourceRef="_716BF79F-F6E5-46AC-9B1B-28CCE48E4C0F" targetRef="_3A27516A-2D10-400C-B66B-F585C372B9FB"/>
+    <bpmn2:sequenceFlow id="_973DEFB1-2079-4DA3-B897-E59D074ECCB3" sourceRef="_716BF79F-F6E5-46AC-9B1B-28CCE48E4C0F" targetRef="_3A27516A-2D10-400C-B66B-F585C372B9FB">
+      <bpmn2:conditionExpression xsi:type="bpmn2:tFormalExpression" id="_k-BF8ml8Eei3L4V23ed5gQ"></bpmn2:conditionExpression>
+    </bpmn2:sequenceFlow>
     <bpmn2:sequenceFlow id="_0943D27F-1CFF-40F8-A12C-3E133CB13DB1" sourceRef="_08F5B565-035B-4705-B1BC-725A0B48C826" targetRef="_6FAF3A63-30C1-4FA4-A481-97FF0223CA68"/>
     <bpmn2:sequenceFlow id="_D5A6DCB3-8F9B-494A-B3DD-CFAF88FDD9A9" sourceRef="_3A27516A-2D10-400C-B66B-F585C372B9FB" targetRef="_0A6E1BC8-075A-4419-82FA-E3A7244230E0"/>
     <bpmn2:sequenceFlow id="_709D95D6-4BBE-4E35-9FA2-DA90D7316DD0" sourceRef="_51EF4BEB-AA9D-4C3F-8035-D1B5583E0111" targetRef="_716BF79F-F6E5-46AC-9B1B-28CCE48E4C0F"/>
@@ -209,88 +211,88 @@ youngBeer.setDaysOfAging(youngBeer.getDaysOfAging-7);]]></drools:script>
     </bpmn2:sequenceFlow>
     <bpmn2:sequenceFlow id="_26DAF3FB-7AE8-4196-B01B-1D4240AA366A" sourceRef="_0A6E1BC8-075A-4419-82FA-E3A7244230E0" targetRef="_51EF4BEB-AA9D-4C3F-8035-D1B5583E0111"/>
   </bpmn2:process>
-  <bpmndi:BPMNDiagram id="_hn8iAml8Eei3L4V23ed5gQ">
-    <bpmndi:BPMNPlane id="_hn8iA2l8Eei3L4V23ed5gQ" bpmnElement="bohdan_aging_final.b_aging_and_tank_distribution">
-      <bpmndi:BPMNShape id="_hn8iBGl8Eei3L4V23ed5gQ" bpmnElement="_D3BDC597-399B-41BE-81AA-9B63DA60577B">
+  <bpmndi:BPMNDiagram id="_k-BF82l8Eei3L4V23ed5gQ">
+    <bpmndi:BPMNPlane id="_k-BF9Gl8Eei3L4V23ed5gQ" bpmnElement="bohdan_aging_final.b_aging_and_tank_distribution">
+      <bpmndi:BPMNShape id="_k-BF9Wl8Eei3L4V23ed5gQ" bpmnElement="_D3BDC597-399B-41BE-81AA-9B63DA60577B">
         <dc:Bounds height="56.0" width="56.0" x="100.0" y="100.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="_hn8iBWl8Eei3L4V23ed5gQ" bpmnElement="_5714AA85-282C-4166-A850-6E62D6100185">
+      <bpmndi:BPMNShape id="_k-BF9ml8Eei3L4V23ed5gQ" bpmnElement="_5714AA85-282C-4166-A850-6E62D6100185">
         <dc:Bounds height="102.0" width="154.0" x="236.0" y="77.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="_hn8iBml8Eei3L4V23ed5gQ" bpmnElement="_08F5B565-035B-4705-B1BC-725A0B48C826">
+      <bpmndi:BPMNShape id="_k-BF92l8Eei3L4V23ed5gQ" bpmnElement="_08F5B565-035B-4705-B1BC-725A0B48C826">
         <dc:Bounds height="102.0" width="154.0" x="470.0" y="77.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="_hn8iB2l8Eei3L4V23ed5gQ" bpmnElement="_6FAF3A63-30C1-4FA4-A481-97FF0223CA68">
+      <bpmndi:BPMNShape id="_k-BF-Gl8Eei3L4V23ed5gQ" bpmnElement="_6FAF3A63-30C1-4FA4-A481-97FF0223CA68">
         <dc:Bounds height="102.0" width="154.0" x="704.0" y="77.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="_hn8iCGl8Eei3L4V23ed5gQ" bpmnElement="_0A6E1BC8-075A-4419-82FA-E3A7244230E0">
+      <bpmndi:BPMNShape id="_k-BF-Wl8Eei3L4V23ed5gQ" bpmnElement="_0A6E1BC8-075A-4419-82FA-E3A7244230E0">
         <dc:Bounds height="102.0" width="154.0" x="1139.0" y="111.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="_hn8iCWl8Eei3L4V23ed5gQ" bpmnElement="_BDCD6979-46F9-44D9-99F0-F47703708491">
+      <bpmndi:BPMNShape id="_k-BF-ml8Eei3L4V23ed5gQ" bpmnElement="_BDCD6979-46F9-44D9-99F0-F47703708491">
         <dc:Bounds height="102.0" width="154.0" x="1479.0" y="97.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="_hn8iCml8Eei3L4V23ed5gQ" bpmnElement="_E1D9F606-1523-409C-A768-34BCBFBB8355">
+      <bpmndi:BPMNShape id="_k-BF-2l8Eei3L4V23ed5gQ" bpmnElement="_E1D9F606-1523-409C-A768-34BCBFBB8355">
         <dc:Bounds height="56.0" width="56.0" x="1848.0" y="120.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="_hn8iC2l8Eei3L4V23ed5gQ" bpmnElement="_3A27516A-2D10-400C-B66B-F585C372B9FB">
+      <bpmndi:BPMNShape id="_k-BF_Gl8Eei3L4V23ed5gQ" bpmnElement="_3A27516A-2D10-400C-B66B-F585C372B9FB">
         <dc:Bounds height="56.0" width="56.0" x="1027.0" y="120.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="_hn8iDGl8Eei3L4V23ed5gQ" bpmnElement="_51EF4BEB-AA9D-4C3F-8035-D1B5583E0111">
+      <bpmndi:BPMNShape id="_k-BF_Wl8Eei3L4V23ed5gQ" bpmnElement="_51EF4BEB-AA9D-4C3F-8035-D1B5583E0111">
         <dc:Bounds height="56.0" width="56.0" x="1363.0" y="120.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="_hn8iDWl8Eei3L4V23ed5gQ" bpmnElement="_716BF79F-F6E5-46AC-9B1B-28CCE48E4C0F">
+      <bpmndi:BPMNShape id="_k-BF_ml8Eei3L4V23ed5gQ" bpmnElement="_716BF79F-F6E5-46AC-9B1B-28CCE48E4C0F">
         <dc:Bounds height="56.0" width="56.0" x="915.0" y="120.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="_hn8iDml8Eei3L4V23ed5gQ" bpmnElement="_1F7B4393-FD03-40EE-B630-F0AD537B4BB8" sourceElement="_hn8iDGl8Eei3L4V23ed5gQ" targetElement="_hn8iCWl8Eei3L4V23ed5gQ">
+      <bpmndi:BPMNEdge id="_k-BF_2l8Eei3L4V23ed5gQ" bpmnElement="_1F7B4393-FD03-40EE-B630-F0AD537B4BB8" sourceElement="_k-BF_Wl8Eei3L4V23ed5gQ" targetElement="_k-BF-ml8Eei3L4V23ed5gQ">
         <di:waypoint xsi:type="dc:Point" x="1391.0" y="148.0"/>
         <di:waypoint xsi:type="dc:Point" x="1556.0" y="148.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="_hn8iD2l8Eei3L4V23ed5gQ" bpmnElement="_2E88C0E4-A619-4E22-B9E9-91B51C776FC9" sourceElement="_hn8iBWl8Eei3L4V23ed5gQ" targetElement="_hn8iBml8Eei3L4V23ed5gQ">
+      <bpmndi:BPMNEdge id="_k-BGAGl8Eei3L4V23ed5gQ" bpmnElement="_2E88C0E4-A619-4E22-B9E9-91B51C776FC9" sourceElement="_k-BF9ml8Eei3L4V23ed5gQ" targetElement="_k-BF92l8Eei3L4V23ed5gQ">
         <di:waypoint xsi:type="dc:Point" x="390.0" y="128.0"/>
         <di:waypoint xsi:type="dc:Point" x="470.0" y="128.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="_hn8iEGl8Eei3L4V23ed5gQ" bpmnElement="_7388DA17-A3CE-40B3-8878-BB65A542C2B6" sourceElement="_hn8iBGl8Eei3L4V23ed5gQ" targetElement="_hn8iBWl8Eei3L4V23ed5gQ">
+      <bpmndi:BPMNEdge id="_k-BGAWl8Eei3L4V23ed5gQ" bpmnElement="_7388DA17-A3CE-40B3-8878-BB65A542C2B6" sourceElement="_k-BF9Wl8Eei3L4V23ed5gQ" targetElement="_k-BF9ml8Eei3L4V23ed5gQ">
         <di:waypoint xsi:type="dc:Point" x="156.0" y="128.0"/>
         <di:waypoint xsi:type="dc:Point" x="236.0" y="128.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="_hn8iEWl8Eei3L4V23ed5gQ" bpmnElement="_748D70BB-BB0C-43C1-87EE-F87FF874AD9D" sourceElement="_hn8iCWl8Eei3L4V23ed5gQ" targetElement="_hn8iCml8Eei3L4V23ed5gQ">
+      <bpmndi:BPMNEdge id="_k-BGAml8Eei3L4V23ed5gQ" bpmnElement="_748D70BB-BB0C-43C1-87EE-F87FF874AD9D" sourceElement="_k-BF-ml8Eei3L4V23ed5gQ" targetElement="_k-BF-2l8Eei3L4V23ed5gQ">
         <di:waypoint xsi:type="dc:Point" x="1633.0" y="148.0"/>
         <di:waypoint xsi:type="dc:Point" x="1848.0" y="148.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="_hn8iEml8Eei3L4V23ed5gQ" bpmnElement="_973DEFB1-2079-4DA3-B897-E59D074ECCB3" sourceElement="_hn8iDWl8Eei3L4V23ed5gQ" targetElement="_hn8iC2l8Eei3L4V23ed5gQ">
+      <bpmndi:BPMNEdge id="_k-BGA2l8Eei3L4V23ed5gQ" bpmnElement="_973DEFB1-2079-4DA3-B897-E59D074ECCB3" sourceElement="_k-BF_ml8Eei3L4V23ed5gQ" targetElement="_k-BF_Gl8Eei3L4V23ed5gQ">
         <di:waypoint xsi:type="dc:Point" x="971.0" y="148.0"/>
         <di:waypoint xsi:type="dc:Point" x="1027.0" y="148.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="_hn8iE2l8Eei3L4V23ed5gQ" bpmnElement="_0943D27F-1CFF-40F8-A12C-3E133CB13DB1" sourceElement="_hn8iBml8Eei3L4V23ed5gQ" targetElement="_hn8iB2l8Eei3L4V23ed5gQ">
+      <bpmndi:BPMNEdge id="_k-BGBGl8Eei3L4V23ed5gQ" bpmnElement="_0943D27F-1CFF-40F8-A12C-3E133CB13DB1" sourceElement="_k-BF92l8Eei3L4V23ed5gQ" targetElement="_k-BF-Gl8Eei3L4V23ed5gQ">
         <di:waypoint xsi:type="dc:Point" x="624.0" y="128.0"/>
         <di:waypoint xsi:type="dc:Point" x="704.0" y="128.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="_hn8iFGl8Eei3L4V23ed5gQ" bpmnElement="_D5A6DCB3-8F9B-494A-B3DD-CFAF88FDD9A9" sourceElement="_hn8iC2l8Eei3L4V23ed5gQ" targetElement="_hn8iCGl8Eei3L4V23ed5gQ">
+      <bpmndi:BPMNEdge id="_k-BGBWl8Eei3L4V23ed5gQ" bpmnElement="_D5A6DCB3-8F9B-494A-B3DD-CFAF88FDD9A9" sourceElement="_k-BF_Gl8Eei3L4V23ed5gQ" targetElement="_k-BF-Wl8Eei3L4V23ed5gQ">
         <di:waypoint xsi:type="dc:Point" x="1055.0" y="148.0"/>
         <di:waypoint xsi:type="dc:Point" x="1216.0" y="162.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="_hn8iFWl8Eei3L4V23ed5gQ" bpmnElement="_709D95D6-4BBE-4E35-9FA2-DA90D7316DD0" sourceElement="_hn8iDGl8Eei3L4V23ed5gQ" targetElement="_hn8iDWl8Eei3L4V23ed5gQ">
+      <bpmndi:BPMNEdge id="_k-BGBml8Eei3L4V23ed5gQ" bpmnElement="_709D95D6-4BBE-4E35-9FA2-DA90D7316DD0" sourceElement="_k-BF_Wl8Eei3L4V23ed5gQ" targetElement="_k-BF_ml8Eei3L4V23ed5gQ">
         <di:waypoint xsi:type="dc:Point" x="1391.0" y="120.0"/>
         <di:waypoint xsi:type="dc:Point" x="1391.0" y="28.0"/>
         <di:waypoint xsi:type="dc:Point" x="943.0" y="28.0"/>
         <di:waypoint xsi:type="dc:Point" x="943.0" y="120.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="_hn8iFml8Eei3L4V23ed5gQ" bpmnElement="_D13B9327-1D8E-4759-AC6D-CB750D2719D4" sourceElement="_hn8iB2l8Eei3L4V23ed5gQ" targetElement="_hn8iDWl8Eei3L4V23ed5gQ">
+      <bpmndi:BPMNEdge id="_k-BGB2l8Eei3L4V23ed5gQ" bpmnElement="_D13B9327-1D8E-4759-AC6D-CB750D2719D4" sourceElement="_k-BF-Gl8Eei3L4V23ed5gQ" targetElement="_k-BF_ml8Eei3L4V23ed5gQ">
         <di:waypoint xsi:type="dc:Point" x="858.0" y="128.0"/>
         <di:waypoint xsi:type="dc:Point" x="915.0" y="148.0"/>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="_hn8iF2l8Eei3L4V23ed5gQ" bpmnElement="_26DAF3FB-7AE8-4196-B01B-1D4240AA366A" sourceElement="_hn8iCGl8Eei3L4V23ed5gQ" targetElement="_hn8iDGl8Eei3L4V23ed5gQ">
+      <bpmndi:BPMNEdge id="_k-BGCGl8Eei3L4V23ed5gQ" bpmnElement="_26DAF3FB-7AE8-4196-B01B-1D4240AA366A" sourceElement="_k-BF-Wl8Eei3L4V23ed5gQ" targetElement="_k-BF_Wl8Eei3L4V23ed5gQ">
         <di:waypoint xsi:type="dc:Point" x="1293.0" y="162.0"/>
         <di:waypoint xsi:type="dc:Point" x="1363.0" y="148.0"/>
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
-  <bpmn2:relationship id="_hn8iGGl8Eei3L4V23ed5gQ" type="BPSimData">
+  <bpmn2:relationship id="_k-BGCWl8Eei3L4V23ed5gQ" type="BPSimData">
     <bpmn2:extensionElements>
       <bpsim:BPSimData>
         <bpsim:Scenario xsi:type="bpsim:Scenario" id="default" name="Simulationscenario">
           <bpsim:ScenarioParameters xsi:type="bpsim:ScenarioParameters"/>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_5714AA85-282C-4166-A850-6E62D6100185" id="_hn8iGWl8Eei3L4V23ed5gQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_5714AA85-282C-4166-A850-6E62D6100185" id="_k-BGCml8Eei3L4V23ed5gQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -302,7 +304,7 @@ youngBeer.setDaysOfAging(youngBeer.getDaysOfAging-7);]]></drools:script>
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_0A6E1BC8-075A-4419-82FA-E3A7244230E0" id="_hn8iGml8Eei3L4V23ed5gQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_0A6E1BC8-075A-4419-82FA-E3A7244230E0" id="_k-BGC2l8Eei3L4V23ed5gQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -322,7 +324,7 @@ youngBeer.setDaysOfAging(youngBeer.getDaysOfAging-7);]]></drools:script>
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_6FAF3A63-30C1-4FA4-A481-97FF0223CA68" id="_hn8iG2l8Eei3L4V23ed5gQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_6FAF3A63-30C1-4FA4-A481-97FF0223CA68" id="_k-BGDGl8Eei3L4V23ed5gQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -342,7 +344,7 @@ youngBeer.setDaysOfAging(youngBeer.getDaysOfAging-7);]]></drools:script>
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_08F5B565-035B-4705-B1BC-725A0B48C826" id="_hn8iHGl8Eei3L4V23ed5gQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_08F5B565-035B-4705-B1BC-725A0B48C826" id="_k-BGDWl8Eei3L4V23ed5gQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -354,14 +356,14 @@ youngBeer.setDaysOfAging(youngBeer.getDaysOfAging-7);]]></drools:script>
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_D3BDC597-399B-41BE-81AA-9B63DA60577B" id="_hn8iHWl8Eei3L4V23ed5gQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_D3BDC597-399B-41BE-81AA-9B63DA60577B" id="_k-BGDml8Eei3L4V23ed5gQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
               </bpsim:ProcessingTime>
             </bpsim:TimeParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_BDCD6979-46F9-44D9-99F0-F47703708491" id="_hn8iHml8Eei3L4V23ed5gQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_BDCD6979-46F9-44D9-99F0-F47703708491" id="_k-BGD2l8Eei3L4V23ed5gQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -376,7 +378,7 @@ youngBeer.setDaysOfAging(youngBeer.getDaysOfAging-7);]]></drools:script>
         </bpsim:Scenario>
       </bpsim:BPSimData>
     </bpmn2:extensionElements>
-    <bpmn2:source>_hn8h4Gl8Eei3L4V23ed5gQ</bpmn2:source>
-    <bpmn2:target>_hn8h4Gl8Eei3L4V23ed5gQ</bpmn2:target>
+    <bpmn2:source>_k-BF0Gl8Eei3L4V23ed5gQ</bpmn2:source>
+    <bpmn2:target>_k-BF0Gl8Eei3L4V23ed5gQ</bpmn2:target>
   </bpmn2:relationship>
 </bpmn2:definitions>
