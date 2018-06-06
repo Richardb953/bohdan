@@ -1,0 +1,1 @@
+{"id":"bd6cfca4-2c5a-4b38-998d-a9f89ab44e32","name":"Task-taskform.frm","model":{"taskName":"Task","processId":"bohdan_aging_final.b_aging_and_tank_distribution","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":2,"style":"FLUID","layoutProperties":{},"rows":[]}}
